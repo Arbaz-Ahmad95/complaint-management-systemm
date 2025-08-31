@@ -9,7 +9,6 @@ const db_1 = __importDefault(require("./config/db"));
 const cors_1 = __importDefault(require("cors"));
 const complaints_1 = __importDefault(require("./routes/complaints"));
 dotenv_1.default.config();
-console.log("Loaded SENDGRID_API_KEY:", process.env.SENDGRID_API_KEY ? "Yes" : "No");
 (0, db_1.default)();
 const app = (0, express_1.default)();
 app.use((0, cors_1.default)());

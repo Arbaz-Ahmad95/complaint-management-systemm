@@ -4,8 +4,7 @@
   "description": "Backend for complaint management system",
   "main": "server.js",
   "scripts": {
-  "dev": "nodemon src/server.ts",
-  "dev:ts": "ts-node src/server.ts",
+  "dev": "ts-node src/server.ts",   
   "build": "tsc",
   "start": "node dist/server.js"
 },
